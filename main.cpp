@@ -13,7 +13,7 @@ struct Node {
     Node (string n, string e) {
         name = n;
         email = e;
-        left = right = nullptr;
+        left = right = nullptr; // ორივე პოინტერი საწყისად "ცარიელია"/ Both pointers are initialy "null"
 
     }
 };
